@@ -1,0 +1,2 @@
+Model Name,Learning Rate,Batch Size,Optimizer,Start Time,End Time,Test Loss,Test Accuracy,Test Top-2 Accuracy,Test F1-Score,Test Precision,Test Recall
+CNN_2023-11-19_11-47-51_run1,0.001,16,Adam,11-47-51,11-49-52,0.41851457953453064,0.9200000166893005,0.9653333425521851,0.911494255065918,0.9139137268066406,0.9092261791229248

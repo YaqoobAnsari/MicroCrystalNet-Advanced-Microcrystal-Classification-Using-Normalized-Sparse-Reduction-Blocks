@@ -1,0 +1,32 @@
+Model: "model_76"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_78 (InputLayer)       [(None, 64, 64, 1)]       0         
+                                                                 
+ conv2d_228 (Conv2D)         (None, 64, 64, 64)        640       
+                                                                 
+ max_pooling2d_228 (MaxPooli  (None, 32, 32, 64)       0         
+ ng2D)                                                           
+                                                                 
+ conv2d_229 (Conv2D)         (None, 32, 32, 32)        18464     
+                                                                 
+ max_pooling2d_229 (MaxPooli  (None, 16, 16, 32)       0         
+ ng2D)                                                           
+                                                                 
+ conv2d_230 (Conv2D)         (None, 16, 16, 16)        4624      
+                                                                 
+ max_pooling2d_230 (MaxPooli  (None, 8, 8, 16)         0         
+ ng2D)                                                           
+                                                                 
+ flatten_76 (Flatten)        (None, 1024)              0         
+                                                                 
+ dense_152 (Dense)           (None, 256)               262400    
+                                                                 
+ dense_153 (Dense)           (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 287,156
+Trainable params: 287,156
+Non-trainable params: 0
+_________________________________________________________________
